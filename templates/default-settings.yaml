@@ -1,0 +1,7 @@
+steps:
+  - timeout_in_minutes: 10
+    env:
+      FOO: BAR
+    label: "Lorem ipsum"
+    priority: 1
+    retry: automatic
